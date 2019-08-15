@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+    color: #777777;
+}
+
+@media(max-width: 699px){
+    :host{
+        padding: 0 2rem;
+    }
+    p{
+        font-size: 2.4vw;
+    }
+}
+
+@media(min-width: 700px){
+    :host{
+        padding: 0 14vw;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,33 @@
+:host{
+    position: relative;
+    overflow: hidden;
+}
+button{
+    margin-top: 2rem;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s all 0.4s;
+    z-index: 999999999;
+    transform: translateY(-100%);
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.instructions.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+.instructions span{
+    text-align: center;
+}

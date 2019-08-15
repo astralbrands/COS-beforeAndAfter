@@ -1,0 +1,25 @@
+:host{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+@media(min-width:700px){
+    app-arm{
+        margin-right: 4rem;
+    }
+    :host{
+        padding: 4rem;
+    }
+
+}
+
+@media(max-width:699px){
+    :host{
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+    app-arm{
+        margin-bottom: 2rem;
+    }
+}

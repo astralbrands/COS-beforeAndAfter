@@ -1,0 +1,57 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 9vw;
+}
+
+strong{
+    font-family: 'Gotham-M', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    text-align: center;
+    font-size: 3.6vw;
+    color: white;
+    margin: 0;
+    padding: 0 9vw;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.5vw;
+    /* font-family: 'Gotham-Book', sans-serif; */
+}
+
+@media(min-width: 700px){
+    :host{
+        padding: 1rem 20vw;
+    }
+    p{
+        font-size: 1.3vw;
+        padding: initial;
+    }
+    h1{
+        font-size: 2.2vw;
+        letter-spacing: 0.3vw;
+    }
+}
+
+@media(min-width: 1600px){
+    p{
+        font-size: 1.3rem;
+        padding: initial;
+    }
+    h1{
+        font-size: 2.2rem;
+        letter-spacing: 0.3rem;
+    }
+}

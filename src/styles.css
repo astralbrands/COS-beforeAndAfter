@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Gotham-M';
+    src: url('./assets/font/Gotham/Gotham-Medium.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('./assets/font/Gotham/Gotham-Book.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('./assets/font/Gotham/Gotham-Book.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+body{
+    /* margin: 2rem; */
+    margin: 0;
+    position: relative;
+    /* background-color: black; */
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Gotham-Book', sans-serif;
+}

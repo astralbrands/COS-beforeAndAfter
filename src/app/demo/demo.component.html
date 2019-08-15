@@ -1,0 +1,15 @@
+<div class="container noselect" [class.hidden]="containerHidden">
+  <img [id]="afterId" (load)="loadImg('after')" class="after noselect" [src]="after" alt="After Image" draggable="false" (window:resize)="resize()">
+
+  <div class="beforeImage noselect">
+    <img [id]="beforeId" (load)="loadImg('before')" class="before noselect" [src]="before" alt="Before Image" draggable="false">
+    <div [id]="draggableId" class="slider">
+      <div class="orbContainer noselect">
+        <div class="orb noselect card">
+          <i class="material-icons noselect">chevron_left</i>
+          <i class="material-icons noselect">chevron_right</i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
